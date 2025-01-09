@@ -74,3 +74,7 @@ renv::init()
 The `boys` data contains `r nrow(boys)` rows and `r ncol(boys)` columns. In total there are `r sum(is.na(boys))` missing values in the `boys` data, with the highest number of missing values in the `r names(which.max(apply(mice::boys, 2, function(x) sum(is.na(x)))))` column. 
 
 :::
+
+# Photo
+
+![Photo of the Dom tower in Utrecht](https://www.goodfreephotos.com/albums/netherlands/utrecht/dom-tower-from-stadhuisbrug-utrecht-netherlands.jpg){width="100%"}
